@@ -9,7 +9,7 @@ Code accompanying:
 ## Overview
 
 This repository contains the analysis pipeline used to quantify locus-specific human
-endogenous retrovirus (HERV-K/HML-2) expression in acral melanoma (AM) bulk RNA-seq,
+endogenous retrovirus (HERV) and LINE-1 expression in acral melanoma (AM) bulk RNA-seq,
 using [Telescope](https://github.com/mlbendall/telescope) with a RepeatMasker-derived
 annotation, and to relate locus-level expression to tumor purity, immune infiltrate,
 HLA typing, and clinical outcomes (ICI response, overall survival).
