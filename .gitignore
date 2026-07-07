@@ -1,0 +1,75 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Bioinformatics raw / intermediate (NEVER read into Claude context)
+data/fastq/
+data/bam/
+data/grch38_bt2/
+*.fastq
+*.fq
+*.fastq.gz
+*.fq.gz
+*.bam
+*.sam
+*.cram
+*.bai
+*.vcf
+*.vcf.gz
+*.bcf
+*.bigwig
+*.bw
+*.bedgraph
+
+# Large tabular outputs that Claude should not auto-load
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# Compressed archives
+*.gz
+*.tgz
+*.tar
+*.tar.gz
+*.zip
+*.bz2
+*.xz
+# (allow targeted tracking via `git add -f` if needed)
+
+# Logs
+*.log
+logs/
+
+# Temp / lock files
+~$*
+.~lock.*
+*.tmp
+
+# Editor / IDE
+.idea/
+.vscode/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Office lock files (manuscript editing)
+~$*.docx
+~$*.xlsx
+~$*.pptx
