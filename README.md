@@ -1,4 +1,4 @@
-# Acral Melanoma HERV-K(HML-2) Locus-Specific Expression
+# Locus-Specific Retrotransposable Element Expression in Acral Melanoma
 
 Code accompanying:
 
